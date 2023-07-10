@@ -1,0 +1,49 @@
+.task {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+
+    border-radius: 8px;
+    border: 1px solid var(--gray-400, #333);
+    background: var(--gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    
+}
+
+.task + .task {
+    margin-top: 2rem;
+
+}
+
+.content {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    color: var(--gray-300);
+}
+
+.task img {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.trashIcon {
+    cursor: pointer;
+}
+
+.trash {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 630px;
+}
+
+.taskCompleted {
+    color: var(--gray-300, #808080);
+    line-height: 140%;
+    text-decoration: line-through;
+}

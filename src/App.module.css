@@ -1,0 +1,112 @@
+.app {
+    background: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+}
+
+.newTaskForm {
+    display: flex;
+    width: 736px;
+    align-items: center;
+    gap: 8px;
+}
+
+.newTaskForm input {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500, #262626);
+    margin-top: -3rem
+}
+
+.newTaskForm button[type=submit] {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: -3rem;
+    cursor: pointer;
+
+    border-radius: 8px;
+    background: var(--blue-dark, #1E6F9F);
+}
+
+.counters {
+    display: flex;
+    justify-content: space-between;
+    height: 18px;
+    margin-top: 65px;
+    color: var(--gray-200, #D9D9D9);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.counters span {
+    padding: 2px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 999px;
+    background: var(--gray-400, #333);
+}
+
+.counterParagraph {
+    margin-top: -0.5px;
+    margin-right: -480px;
+    color: var(--blue, #4EA8DE);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.countersCompleteParagraph {
+    margin-top: -0.5px;
+    margin-right: -480px;
+    color:purple;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.taskList {
+    display: flex;
+    padding: 64px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    
+    margin-top: 24px;
+    border-top: 1px solid var(--gray-400);
+}
+
+.taskList img {
+    width: 56px;
+    height: 56px;
+}
+
+.taskList p{
+    display: flex;
+    color: var(--gray-400);
+    padding: -100px;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.8;
+}
